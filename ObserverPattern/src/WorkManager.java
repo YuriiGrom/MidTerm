@@ -46,17 +46,5 @@ public class WorkManager implements Subject {
 		this.Message = Message;
 		workItemChanged();
 	}
-	
-	public String getID() {
-		return ID;
-	}
-	
-	public long getWorkerID() {
-		return WorkerID;
-	}
-	
-	public String getMessage() {
-		return Message;
-	}
 
 }

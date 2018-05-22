@@ -23,6 +23,7 @@ public class HealthServiceTest {
 		healthService.serviceCheck(false);
 		healthService.serviceCheck(true);
 		
+		healthService.serviceCheck(false);
 		
 		
 		
